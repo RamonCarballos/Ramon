@@ -1,0 +1,142 @@
+/*body{
+  background-image: url("../img/bus.jpg");
+  background-size: cover;
+  image-resolution: 100%;
+}
+h1, label{
+  color: azure;
+}
+nav{
+  background-color: rgb(68, 199, 96);
+}
+nav.navbar{
+  font-family: 'Courier New', Courier, monospace;
+  color: snow;
+}
+/* desde aqui */
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background-image: url("../img/Buseta.jpg");
+  background-size: 100%;
+  image-resolution: 100%;
+}
+img{
+  border-radius: 40px;
+}
+
+h1{ 
+  color:#ffffff;  
+}
+
+#formContent {
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  margin: 10px;
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #ffffff8e;
+  border-top: 1px solid rgba(255, 255, 255, 0.575);
+  padding: 10px;
+  text-align: center;
+  -webkit-border-radius: 0 0 15px 15px;
+  border-radius: 0 0 15px 15px;
+}
+
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  -webkit-box-shadow: 0 10px 30px 0 rgb(95, 187, 233);
+  box-shadow: 0 10px 30px 0 rgb(95, 187, 233);
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  margin: 5px 20px 40px 20px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover{
+  background-color: #3a3939;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active{
+  -moz-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+input[type=number] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 75%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px 10px 10px 10px;
+  outline: 7px 7px 7px 7px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type=number]:focus {
+  background-color: #fff;
+  outline: 2px solid #685fe9;
+}
+
+input[type=number]:placeholder {
+  color: #cccccc;
+}
+input[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 75%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px 10px 10px 10px;
+  outline: 7px 7px 7px 7px;
+}
+
+input[type=password]:focus {
+  background-color: #fff;
+  outline: 2px solid #685fe9;
+}
+
+input[type=password]:placeholder {
+  color: #cccccc;
+}
